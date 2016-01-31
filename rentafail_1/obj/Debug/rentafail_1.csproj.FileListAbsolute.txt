@@ -18,3 +18,5 @@ d:\mina dokument\visual studio 2015\Projects\rentafail_1\rentafail_1\bin\Microso
 d:\mina dokument\visual studio 2015\Projects\rentafail_1\rentafail_1\obj\Debug\rentafail_1.csprojResolveAssemblyReference.cache
 d:\mina dokument\visual studio 2015\Projects\rentafail_1\rentafail_1\obj\Debug\rentafail_1.dll
 d:\mina dokument\visual studio 2015\Projects\rentafail_1\rentafail_1\obj\Debug\rentafail_1.pdb
+d:\mina dokument\visual studio 2015\Projects\rentafail_1\rentafail_1\bin\rentafail_1.dll.CodeAnalysisLog.xml
+d:\mina dokument\visual studio 2015\Projects\rentafail_1\rentafail_1\bin\rentafail_1.dll.lastcodeanalysissucceeded
