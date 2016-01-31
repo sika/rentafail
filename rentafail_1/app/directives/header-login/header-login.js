@@ -1,5 +1,5 @@
 ﻿var mHeaderLogin = angular.module('app.directives.mHeaderLogin', [])// mMain-dependent due to factory call
-.directive('dHeaderLogin', fHeaderLogin);
+mHeaderLogin.directive('dHeaderLogin', fHeaderLogin);
 function fHeaderLogin() {
     return {
         restrict: 'A',
