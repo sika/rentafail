@@ -3,7 +3,7 @@ mHeaderLogin.directive('dHeaderLogin', fHeaderLogin);
 function fHeaderLogin() {
     return {
         restrict: 'A',
-        templateUrl: 'app/directives/header-Login/header-Login.html',
+        templateUrl: 'app/directives/header-login/header-login.html',
         controller: function ($scope, mainFactory) {
             //$scope.loggedin = false; 
             $scope.login = mainFactory.getLogin(); //default view; user not logged in
