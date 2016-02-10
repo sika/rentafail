@@ -25,12 +25,12 @@ function fHeaderLogin() {
                             if (scope.logins[j].ref_id_user === scope.users[i].id_user) {//check password
                                 if (scope.logins[j].password === scope.password.pass) { //if passed, user is logged in
                                     //scope.iUser = i;
-                                    scope.login[0].username = scope.users[i].name;
-                                    scope.login[0].ref_id_user = scope.users[i].id_user;
-                                    scope.login[0].loggedin = true;
-                                    console.log(scope.login[0].loggedin);
-                                    console.log(scope.login[0].username);
-                                    console.log(scope.login[0].ref_id_user);
+                                    scope.login.username = scope.users[i].name;
+                                    scope.login.ref_id_user = scope.users[i].id_user;
+                                    scope.login.loggedin = true;
+                                    console.log(scope.login.loggedin);
+                                    console.log(scope.login.username);
+                                    console.log(scope.login.ref_id_user);
                                     return;
                                 }
                             }

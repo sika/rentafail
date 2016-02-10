@@ -1,5 +1,5 @@
 ﻿<div class="container_header-login">
-    <div data-ng-if="!login[0].loggedin">
+    <div data-ng-if="!login.loggedin">
        
         <form ng-submit="confirm()">
             <input type="text" ng-model="username.name" placeholder="username" />
@@ -13,7 +13,7 @@
         <input type="button" ng-click="btn()"></input>-->
         <a href="#/register">Register</a>
     </div>
-    <div data-ng-if="login[0].loggedin" class="loggedInMessage">
-        <p>Logged in as  </p><a href="#/user_info">{{login[0].username}}</a>
+    <div data-ng-if="login.loggedin" class="loggedInMessage">
+        <p>Logged in as  </p><a href="#/user_info">{{login.username}}</a>
     </div>
 </div>

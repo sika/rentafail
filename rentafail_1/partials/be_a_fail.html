@@ -1,6 +1,6 @@
 ﻿<h1>Be a fail</h1>
 <div class="container_be-a-fail">
-    <div class="be-a-fail" data-ng-if="login[0].loggedin">
+    <div class="be-a-fail" data-ng-if="login.loggedin">
         <form ng-submit="addVideo()">
             <input type="text" ng-model="newVideo.name" placeholder="video name" id="videoName"/>
             <input type="text" ng-model="newVideo.url" placeholder="url (youtube link, format: https://www.youtube.com/watch?v=JbF5d9u0U7o)" id="videoUrl"/>
@@ -12,7 +12,7 @@
         <!--<input type="text" ng-model="username.name"></input>
         <input type="button" ng-click="btn()"></input>-->
     </div>
-    <div data-ng-if="!login[0].loggedin" class="loggedInMessage">
+    <div data-ng-if="!login.loggedin" class="loggedInMessage">
         <p>Please login or register</p>
     </div>
 </div>

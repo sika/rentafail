@@ -55,7 +55,7 @@ function fMainController($scope, mainFactory, $sce) { //mainFactory returns fact
         var id = $scope.newVideo.url.substring(32);
         var end = "?autoplay=0";
         $scope.newVideo.url = start + id + end;
-        $scope.newVideo.ref_id_user = $scope.login[0].ref_id_user;
+        $scope.newVideo.ref_id_user = $scope.login.ref_id_user;
         // increment video id
         var id_video = $scope.videos[$scope.videos.length - 1].id_video + 1; //get value of id_user in last array item and increment by 1
         $scope.newVideo.id_video = id_video;
@@ -253,11 +253,11 @@ function fMainFactory() {
     }
     ];
 
-    var login = [{
+    var login = {
         loggedin: false,
         username: "",
         ref_id_user: 999
-    }];
+    };
 
     factory.getUsers = function () {
         return users;
