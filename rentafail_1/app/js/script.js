@@ -63,12 +63,12 @@ function fMainController($scope, mainFactory, $sce) { //mainFactory returns fact
         console.log($scope.videos);
         $scope.videos.push($scope.newVideo);
 
-        $scope.newVideo = {
+        /*$scope.newVideo = {
             id_video: null,
             name: null,
             url: null,
             ref_id_user: null
-        }
+		}*/
         //clear inputs
         //$('#videoName').val('');
         //$('#videoUrl').val('');
@@ -181,8 +181,8 @@ function fMainFactory() {
 
     var videos = [{
         id_video: 1,
-        name: "Cheerleading Fail",
-        url: "http://www.youtube.com/embed/l-kxBjNML5c?autoplay=0",
+        name: "Ultimate Bad Friends Compilation",
+        url: "http://www.youtube.com/embed/Wh-coxOjoPQ?autoplay=0",
         ref_id_user: 1
     }, {
         id_video: 2,
@@ -191,53 +191,53 @@ function fMainFactory() {
         ref_id_user: 2
     }, {
         id_video: 3,
-        name: "Nathan A. Fuller",
-        url: "http://www.youtube.com/embed/3lCm9Ii4L48?autoplay=0",
+        name: "Funny Kids Fails 2016",
+        url: "http://www.youtube.com/embed/5Qoq-43o_MY?autoplay=0",
         ref_id_user: 3
     }, {
         id_video: 4,
-        name: "Tana C. Emerson",
-        url: "http://www.youtube.com/embed/3lCm9Ii4L48?autoplay=0",
+        name: "Ultimate Girls Fails of the Year 2015",
+        url: "http://www.youtube.com/embed/n69GS8_TFEM?autoplay=0",
         ref_id_user: 2
     }, {
         id_video: 5,
-        name: "Tana C. Emerson",
-        url: "http://www.youtube.com/embed/3lCm9Ii4L48?autoplay=0",
+        name: "FailArmy's Most Expensive Fails Compilation",
+        url: "http://www.youtube.com/embed/vn69hfjqAsg?autoplay=0",
         ref_id_user: 2
     }, {
         id_video: 6,
-        name: "Tana C. Emerson",
-        url: "http://www.youtube.com/embed/3lCm9Ii4L48?autoplay=0",
+        name: "Ultimate Explosive Fails Compilation",
+        url: "http://www.youtube.com/embed/ScpeqZrTu_o?autoplay=0",
         ref_id_user: 2
     }, {
         id_video: 7,
-        name: "Tana C. Emerson",
-        url: "http://www.youtube.com/embed/3lCm9Ii4L48?autoplay=0",
+        name: "Epic Prank Fails",
+        url: "http://www.youtube.com/embed/J3QmfBfy_WI?autoplay=0",
         ref_id_user: 2
     }, {
         id_video: 8,
-        name: "Tana C. Emerson",
-        url: "http://www.youtube.com/embed/3lCm9Ii4L48?autoplay=0",
+        name: "Get Wrecked",
+        url: "http://www.youtube.com/embed/RJEn8hQ-1d8?autoplay=0",
         ref_id_user: 2
     }, {
         id_video: 9,
-        name: "Tana C. Emerson",
-        url: "http://www.youtube.com/embed/3lCm9Ii4L48?autoplay=0",
+        name: "Best Work Fails Compilation",
+        url: "http://www.youtube.com/embed/LqSpOxLY0tM?autoplay=0",
         ref_id_user: 2
     }, {
         id_video: 10,
-        name: "Tana C. Emerson",
-        url: "http://www.youtube.com/embed/3lCm9Ii4L48?autoplay=0",
+        name: "Instant Karma Fails Compilation",
+        url: "http://www.youtube.com/embed/pj0m6On8DQ0?autoplay=0",
         ref_id_user: 2
     }, {
         id_video: 11,
-        name: "Tana C. Emerson",
-        url: "http://www.youtube.com/embed/3lCm9Ii4L48?autoplay=0",
+        name: "Cell Phone and Selfie Fails",
+        url: "http://www.youtube.com/embed/qL0QROnL-JU?autoplay=0",
         ref_id_user: 2
     }, {
         id_video: 12,
-        name: "Tana C. Emerson",
-        url: "http://www.youtube.com/embed/3lCm9Ii4L48?autoplay=0",
+        name: "Best Police Fails Compilation",
+        url: "http://www.youtube.com/embed/SfgavtMPdBA?autoplay=0",
         ref_id_user: 2
     }
     ];
