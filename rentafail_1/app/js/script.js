@@ -69,26 +69,9 @@ function fMainController($scope, mainFactory, $sce) { //mainFactory returns fact
             url: null,
             ref_id_user: null
         }
-        //clear inputs
-        //$('#videoName').val('');
-        //$('#videoUrl').val('');
         $scope.fail_success = true;
         return;
     }
-
-    //$scope.profileInfo = {
-    //    username: "",
-    //    email: "",
-    //    password: ""
-    //};
-    //getProfileInfo();
-    //function getProfileInfo() {
-    //    if ($scope.login[0].loggedin) {
-
-    //    } else
-    //        return;
-    //}
-
 }
 myApp.controller('regController', fRegController);
 function fRegController($scope, $location, mainFactory) {

@@ -1,17 +1,9 @@
 ﻿<h1>User profile</h1><br />
-<!--
-    if logged in display
-
-    -->
-<!--<div data-ng-if="login[0].loggedin">-->
 <div data-ng-if="login.loggedin">
         <ul>
             <li>
-                
+                {{login.username}}
             </li>
-            <!--<li ng-repeat="user in users">
-                {{user.name}}
-            </li>-->
         </ul>
     </div>
     <div data-ng-if="!login.loggedin">
