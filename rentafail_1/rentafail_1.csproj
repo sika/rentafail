@@ -80,6 +80,7 @@
     <Content Include="app\directives\search-bar\search-bar.js" />
     <Content Include="app\js\angular-ui-router.js" />
     <Content Include="app\js\jquery-1.11.3.js" />
+    <Content Include="app\js\script.js" />
     <Content Include="app\js\validation.js" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -102,7 +103,6 @@
     <Content Include="index.html" />
     <Content Include="app\js\angular-route.js" />
     <Content Include="app\js\angular.js" />
-    <Content Include="app\js\script.js" />
     <Content Include="partials\be_a_fail.html" />
     <Content Include="partials\partials_styling\be_a_fail.css" />
     <Content Include="partials\partials_styling\home.css" />
