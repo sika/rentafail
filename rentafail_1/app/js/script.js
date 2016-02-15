@@ -1,7 +1,6 @@
 ﻿/// <reference path="angular-route.js" />
 /// <reference path="angular.js" />
 
-
 //module with route dependence
 var myApp = angular.module('mMain', ['ngRoute', 'ui.router', 'app.directives.mHeaderAnchor',
 			'app.directives.mHeaderLogin', 'app.directives.mHeaderChooseType', 'app.directives.mSearchBar']);
@@ -239,7 +238,7 @@ function fMainFactory() {
     var login = {
         loggedin: false,
         username: "",
-        ref_id_user: 999
+        ref_id_user: null
     };
 
     factory.getUsers = function () {

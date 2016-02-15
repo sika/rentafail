@@ -3,9 +3,6 @@ angular.module('app.directives.mHeaderChooseType', [])
 	return{
 		restrict: 'A',
 		templateUrl: 'app/directives/header-choose-type/header-choose-type.html',
-		//controller: function ($scope) {
-
-	    //}
 		link: function (scope, element) {
 		    scope.bRent = function () { //setting button color on click. Change to base on view
 		        
